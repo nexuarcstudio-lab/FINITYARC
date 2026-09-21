@@ -1,0 +1,6 @@
+{
+  "name": "FINITYARC",
+  "description": "Offline-first budget tracker with Personal and Business workspaces, budget missions, and real-time balance analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

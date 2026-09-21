@@ -1,0 +1,45 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Arc Ring -->
+    <path
+        android:pathData="M32,54 A22,22 0 1,1 76,54 A22,22 0 0,1 32,54"
+        android:strokeWidth="5"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="32"
+                android:startY="32"
+                android:endX="76"
+                android:endY="76"
+                android:type="linear">
+                <item android:color="#FF00E5FF" android:offset="0.0" />
+                <item android:color="#FFD4AF37" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Dynamic Infinity Arc Loop -->
+    <path
+        android:pathData="M38,62 C38,48 54,46 54,54 C54,62 70,60 70,46"
+        android:strokeWidth="4"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="38"
+                android:startY="46"
+                android:endX="70"
+                android:endY="62"
+                android:type="linear">
+                <item android:color="#FFFFFFFF" android:offset="0.0" />
+                <item android:color="#FFD4AF37" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Center Finity Node -->
+    <path
+        android:fillColor="#FFFFD700"
+        android:pathData="M54,50 A4,4 0 1,0 54,58 A4,4 0 1,0 54,50 Z" />
+</vector>
